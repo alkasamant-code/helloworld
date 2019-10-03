@@ -18,6 +18,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <jdk.version>1.8</jdk.version>
+	<java.version>1.8</java.version>
 
     <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
   </properties>
@@ -35,4 +36,11 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>c39334c36b9b-snapshots</name>
+        <url>http://localhost:8081/artifactory</url>
+    </snapshotRepository>
+	</distributionManagement>
 </project>

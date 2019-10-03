@@ -36,11 +36,11 @@
       </plugin>
     </plugins>
   </build>
-  <distributionManagement>
+ <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
         <name>c39334c36b9b-snapshots</name>
-        <url>http://localhost:8081/artifactory</url>
+        <url>http://52.172.217.41:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
-	</distributionManagement>
+    </distributionManagement>
 </project>
